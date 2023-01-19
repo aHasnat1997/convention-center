@@ -10,19 +10,22 @@ header {
 
 .banner-1 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e), url(../img/banner-1.jpg) no-repeat center;
+  background: linear-gradient(#0000007e, #0000007e),
+    url(../img/banner-1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner-2 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e), url(../img/banner-2.jpg) no-repeat center;
+  background: linear-gradient(#0000007e, #0000007e),
+    url(../img/banner-2.jpg) no-repeat center;
   background-size: cover;
 }
 
 .banner-3 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e), url(../img/banner-3.jpg) no-repeat center;
+  background: linear-gradient(#0000007e, #0000007e),
+    url(../img/banner-3.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -31,18 +34,19 @@ header {
   padding: 2.5rem;
   background-color: rgba(0, 255, 255, 0.137);
   transform: translateY(0%);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 #package .card:hover {
   color: #fff;
   box-shadow: 1rem 2rem 1rem #0000003a;
-  background-color: #3F87F5;
+  background-color: #3f87f5;
   transform: translateY(-8%);
 }
 
 .clientImg {
   position: absolute;
   bottom: -20%;
-  left: 38%;
+  left: 50%;
+  transform: translateX(-50%);
 }
