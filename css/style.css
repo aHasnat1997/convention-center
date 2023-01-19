@@ -10,22 +10,25 @@ header {
 
 .banner-1 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e),
-    url(../img/banner-1.jpg) no-repeat center;
+  background-image: url("../img/banner-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .banner-2 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e),
-    url(../img/banner-2.jpg) no-repeat center;
+  background-image: url("../img/banner-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
 .banner-3 {
   height: 90vh;
-  background: linear-gradient(#0000007e, #0000007e),
-    url(../img/banner-3.jpg) no-repeat center;
+  background-image: url("../img/banner-3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
 }
 
